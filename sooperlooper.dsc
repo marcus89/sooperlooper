@@ -19,5 +19,5 @@ Build-Depends:
   fftw3
 
 Files:
- sooperlooper.tar.gz
+ sooperlooper-v1.7.8.tar.gz
 DEBTRANSFORM-RELEASE: 1
