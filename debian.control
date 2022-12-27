@@ -4,13 +4,13 @@ Source: sooperlooper
 Build-Depends:
   libjack-jackd2-dev,
   wxWidgets,
-  liblo >= 0.18,
+  liblo-dev,
   sigc++ >= 2,
-  libsndfile,
-  libsamplerate,
-  ncurses,
-  libxml2,
-  RubberBand,
+  libsndfile1-dev,
+  libsamplerate0-dev,
+  libncurses-dev,
+  libxml2-dev,
+  librubberband-dev,
   fftw3 
 Standards-Version: 3.8.2
 Homepage: https://github.com/redpesk-addons/afb-supervisor
