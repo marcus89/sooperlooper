@@ -1,0 +1,22 @@
+Priority: medium
+Maintainer: Marcus Coco  <marcus.coco91@gmail.com>
+Source: sooperlooper
+Build-Depends:
+  JACK  >= 0.80,
+  wxWidgets,
+  liblo >= 0.18,
+  sigc++ >= 2,
+  libsndfile,
+  libsamplerate,
+  ncurses,
+  libxml2,
+  RubberBand,
+  fftw3 
+Standards-Version: 3.8.2
+Homepage: https://github.com/redpesk-addons/afb-supervisor
+
+Package: sooperlooper
+Section: libs
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: sooperlooper
